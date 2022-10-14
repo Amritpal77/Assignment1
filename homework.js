@@ -33,7 +33,7 @@ console.log(num2)
 // bmi calculator
 var weight, height, bmi
 weight = read.questionFloat("Enter your weight: ")
-height = read.questionFloat("Enter your height: ")
+height = read.questionFloat("Enter your height in meters: ")
 bmi = weight / height ** 2
 console.log("Bmi is: ", bmi)
 
